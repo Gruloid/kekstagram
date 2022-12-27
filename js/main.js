@@ -1,7 +1,7 @@
 // function checkCommit(str, value = 140) {
 //   return str.length <= value;
 // }
-
+//test
 function getRandomNum(a, b) {
   const lower = Math.ceil(Math.min(Math.abs(a), Math.abs(b)));
   const upper = Math.floor(Math.max(Math.abs(a), Math.abs(b)));
@@ -46,6 +46,7 @@ const TEXT_MESSAGE = [
   'Я поскользнулся на банановой кожуре и уронил фотоаппарат на кота и у меня получилась фотография лучше.',
   'Лица у людей на фотке перекошены, как будто их избивают. Как можно было поймать такой неудачный момент?!',
 ];
+
 const createComments = () => ({
   id: getRandomNum(0, 100),
   avatar: 'img/avatar-' + getRandomNum(1, 6) + '.svg',
